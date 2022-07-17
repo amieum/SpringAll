@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Spring-Boot-Swagger2" />
+        <module name="Spring-Boot-AOP-Log" />
+        <module name="SpringApplication" />
+        <module name="autoconfig" />
+        <module name="Security" />
+        <module name="Spring-Boot-JdbcTemplate-MultiDataSource" />
+        <module name="my-SseEmitter" />
+        <module name="Spring-Boot-MyBatis-MultiDataSource" />
+        <module name="client-es" />
+        <module name="Spring-Boot-Config" />
+        <module name="Start-Spring-Boot" />
+        <module name="Spring-Boot-Redis-Cache" />
+        <module name="boot-es" />
+        <module name="Spring-Boot-JdbcTemplate" />
+        <module name="Spring-Boot-MyBatis" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="autoconfig" target="1.8" />
+      <module name="boot-es" target="1.8" />
+      <module name="client-es" target="1.8" />
+      <module name="my-SseEmitter" target="1.8" />
+      <module name="Security" target="1.8" />
+      <module name="Spring-Boot-AOP-Log" target="1.8" />
+      <module name="Spring-Boot-Config" target="1.8" />
+      <module name="Spring-Boot-Elasticsearch" target="1.8" />
+      <module name="Spring-Boot-JdbcTemplate" target="1.8" />
+      <module name="Spring-Boot-JdbcTemplate-MultiDataSource" target="1.8" />
+      <module name="Spring-Boot-MyBatis" target="1.8" />
+      <module name="Spring-Boot-MyBatis-MultiDataSource" target="1.8" />
+      <module name="Spring-Boot-Redis-Cache" target="1.8" />
+      <module name="Spring-Boot-Swagger2" target="1.8" />
+      <module name="SpringAll" target="1.8" />
+      <module name="SpringApplication" target="1.8" />
+      <module name="springboot-es" target="1.8" />
+      <module name="Start-Spring-Boot" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Spring-Boot-AOP-Log" options="-parameters" />
+      <module name="Spring-Boot-Config" options="-parameters" />
+      <module name="Spring-Boot-Elasticsearch" options="-parameters" />
+      <module name="Spring-Boot-JdbcTemplate" options="" />
+      <module name="Spring-Boot-JdbcTemplate-MultiDataSource" options="" />
+      <module name="Spring-Boot-MyBatis" options="" />
+      <module name="Spring-Boot-MyBatis-MultiDataSource" options="" />
+      <module name="Spring-Boot-Redis-Cache" options="" />
+      <module name="SpringApplication" options="-parameters" />
+      <module name="Start-Spring-Boot" options="-parameters" />
+      <module name="autoconfig" options="-parameters" />
+      <module name="boot-es" options="-parameters" />
+      <module name="my-SseEmitter" options="-parameters" />
+      <module name="springboot-es" options="-parameters" />
+    </option>
+  </component>
+</project>

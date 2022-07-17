@@ -1,0 +1,19 @@
+--Oracle
+CREATE TABLE STUDENT (
+    SNO VARCHAR2(3 BYTE) NOT NULL ,
+    SNAME VARCHAR2(9 BYTE) NOT NULL ,
+    SSEX CHAR(2 BYTE) NOT NULL
+);
+INSERT INTO STUDENT VALUES ('001', 'KangKang', 'M ');
+INSERT INTO STUDENT VALUES ('002', 'Mike', 'M ');
+INSERT INTO STUDENT VALUES ('003', 'Jane', 'F ');
+
+--MySQL
+CREATE TABLE IF NOT EXISTS student (
+    sno VARCHAR(32) NOT NULL,
+    sname VARCHAR(64) NOT NULL,
+    ssex CHAR NOT NULL
+    );
+INSERT INTO student VALUES ('001', 'KangKang', 'M ');
+INSERT INTO student VALUES ('002', 'Mike', 'M ');
+INSERT INTO student VALUES ('003', 'Jane', 'F ');

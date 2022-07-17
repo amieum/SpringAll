@@ -1,0 +1,7 @@
+elasticsearch:
+  host: 127.0.0.1
+  port: 1001
+
+logging:
+  level:
+    yuriua.es: debug
